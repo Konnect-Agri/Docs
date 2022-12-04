@@ -1,47 +1,15 @@
 ---
 sidebar_position: 1
+sidebar_label: Konnect Overview
 ---
+# Konnect Overview
 
-# Tutorial Intro
+Samagra, with support from the Bill & Melinda Gates Foundation, is working with the Government of Odisha to improve the income of farmers in the state. It intends to do this by making the markets work for the farmers and by enabling the agri-value chain to operate at a higher equilibrium. To this end, the program aims to reduce information asymmetry and increase the choices available to farmers.
 
-Let's discover **Docusaurus in less than 5 minutes**.
+### Approach
 
-## Getting Started
+Samagra’s approach to improving the income of farmers is to push for four core administrative and technical reforms. These include developing a tech platform to enable core interactions within the agricultural ecosystem, introducing farmer-centric initiatives across major steps of the value chain, putting in place enablers to drive adoption of the tech platform among farmers, ecosystem players and system actors, and lastly, sharply defining goals with regular income measurement.
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- Improving access to ecosystem players across the agricultural value-chain
+- Reducing information asymmetry for the farmers
+- Setting up a technology stack to enable phygital access to farmer-centric services

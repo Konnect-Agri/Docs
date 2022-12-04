@@ -1,11 +1,9 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 10rem 1rem;
   width: 100%;
-}
-
-.featureSvg {
-  height: 200px;
-  width: 200px;
+  background-image: url(https://mc.webpcache.epapr.in/mcms.php?size=large&in=https://mcmscache.epapr.in/post_images/website_326/post_22848036/full.jpg);
+  background-size: cover;
+  color: white;
 }
