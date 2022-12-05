@@ -7,11 +7,11 @@ sidebar_label: Agriculture Data Exchange
 ---
 ## Use Cases
 
-1. Consent manager block enables data request transactions and provides authorization based on data owner’s consent. 
-2. Data consumers in the ecosystem can request for data owners consent to consume data that exists in Krushak Odisha DB for providing services.
-3. Stores and updates farmer consent for usage of data attributes by requesting party.
+1. Consent manager block enables data request transactions and provides authorization based on data owner’s consent 
+2. Data consumers in the ecosystem can request for data owners consent to consume data that exists in Krushak Odisha DB for providing services
+3. Stores and updates farmer consent for usage of data attributes by requesting party
 ---
-## Archietecture
+## Architecture
 
 Agriculture data exchange is a Data Empowerment And Protection Architecture (DEPA) compliant data fiduciary block that enables farmer consent driven access to data for third-party data requesters.
 
@@ -21,7 +21,7 @@ Agriculture data exchange is a Data Empowerment And Protection Architecture (DEP
 
 1. **User Centricity:** Users should be at the center of any data sharing and should be given adequate control and decision-making power on how data associated with them is shared 
 2. **Trustable and IT Act Compliant:** Use digital signatures to guarantee integrity of access permissions given by users in consent flows. This avoids security issues faced by existing approaches and also makes the framework fully legal under the IT Act 
-3. **Universal Identity:** The technical framework should leverage universal, authenticable, non-repudiable, and digital identities to allow interoperability across service providers. 
+3. **Universal Identity:** The technical framework should leverage universal, authenticable, non-repudiable, and digital identities to allow interoperability across service providers 
 4. **Granular Control:** The framework should allow users to set permissions and rights for data access at a granular level 
 5. **Open Standards Based:** The framework should use open technology and legal standards available in the country. It should be agnostic to applications, programming languages, and platform
 
