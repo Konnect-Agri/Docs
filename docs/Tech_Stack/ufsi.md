@@ -11,7 +11,7 @@ sidebar_label: UFSI Network
 2. Transactional APIs for service discovery, order, fulfillment, and post-fulfillment
 3. Based on the data and transactional APIs, registries will be created for providers and cataloged products
 ---
-## Archietecture
+## Architecture
 
 UFSI is a decentralized network with interoperable protocol specification which includes,
 - Open and configurable APIs to help leverage farmer data
@@ -21,7 +21,7 @@ UFSI is a decentralized network with interoperable protocol specification which 
 ### Three parts of UFSI
 ![UFSI](./images/ufsi.png)
 
-#### Archietecture
+#### Architecture
 ![UFSI](./images/ufsi2.jpg)
 
 1. **Agri Data Exchange (ADE)** - providing a safe and secure way for consent driven access of farmer data
