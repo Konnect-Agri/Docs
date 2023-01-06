@@ -16,7 +16,7 @@ sidebar_label: CI/CD Setup in Our Project
 ### Components
  * **GitHub Repos**: Microservices are developed on this platform, code is pushed merged etc. We can also leverage GitHub Actions for CI - (testing and building of the image).
 
-* **Jenkins Pipeline**: Jenkins is a job runner which executes a series of tasks depending on the config.
+* **Jenkins Pipeline**:  [Jenkins](https://www.jenkins.io/) is a job runner which executes a series of tasks depending on the config.
         **Development Pipelines**: Pipelines to manager for development  environment.
         **Production Pipelines**: Pipelines to manager for development  environment.
 
@@ -45,4 +45,8 @@ sample jenkins file in nodejs
     }
 }
 ```
-So once a developer pushed a code to the repo (main or any particular branch)
+So once a developer pushed a code to the repo (main or any particular branch) .Whenever code is avaialable jenkins pull the code and make a build.Once build is completed it generates artifact. 
+
+This artifact should be deployed in the target env.Target env may be a vm/docker/kubernetes container.In our case we are using [**Docker**](https://www.docker.com/).So we should have some tool to deploy this to the target environment. In our case we have [**ansible**](https://www.ansible.com/) as a deployment service which deploys our docker container.
+
+For some particular case we need to have access to some secret keys and credentials and in order to use them safely we are using [**vault**](https://www.hashicorp.com/products/vault/secrets-management) to store such values and fetch them from it safely.
