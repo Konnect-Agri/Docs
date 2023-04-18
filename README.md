@@ -1,6 +1,15 @@
-# Website
+# Konnect Odisha
+
+This project documents the goals of the Konnect Odisha and the technical documentation of the various elements in it. 
+
+Hosted version below
+### [Konnect Docs](konnect-docs-six.vercel.app) 
+
+
+## Contribute
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+
 
 ### Installation
 
