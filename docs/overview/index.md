@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-sidebar_label: Konnect Overview
+sidebar_label: Overview
 ---
 # Konnect Overview
 

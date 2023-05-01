@@ -56,12 +56,12 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          {
+          /*{
             type: 'doc',
-            docId: 'intro',
+            docId: 'overview',
             position: 'left',
             label: 'Documentation',
-          },
+          },*/
           {
             href: 'https://github.com/Konnect-Agri/Docs',
             label: 'GitHub',

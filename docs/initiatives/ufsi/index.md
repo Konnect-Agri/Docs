@@ -1,6 +1,6 @@
 ---
-sidebar_position: 3
-sidebar_label: UFSI Network
+sidebar_position: 1
+sidebar_label: UFSI
 ---
 
 # Unified Farmers’ Service Interface (Decentralized network)
@@ -24,10 +24,10 @@ UFSI is a decentralized network with interoperable protocol specification which 
 - Registries created for providers and cataloged products or services
 
 ### Three parts of UFSI
-![UFSI](./images/ufsi.png)
+![UFSI](../images/ufsi.png)
 
 #### Architecture
-![UFSI](./images/ufsi2.jpg)
+![UFSI](../images/ufsi2.jpg)
 
 1. **Agri Data Exchange (ADE)** - providing a safe and secure way for consent driven access of farmer data
 2. **BeckN** - a set of specifications consisting of APIs, data models, reference architecture, transaction mechanisms, and global standards that enable the creation of decentralized network
@@ -35,4 +35,4 @@ UFSI is a decentralized network with interoperable protocol specification which 
 4. **Data Consumer Registry** - a registry which ensures every data consumer is registered and provided with a unique token, which is in turn used to identify a consumer
 5. **BecN Registry** - Certification on a Beckn-enabled network works by listing the network participants on the registrars of the certification authority. Any network participant listed on an open registry is implicitly assumed to be certified
 
-![UFSI](./images/ufsi3.jpg)
+![UFSI](../images/ufsi3.jpg)

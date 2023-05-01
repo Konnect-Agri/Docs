@@ -20,7 +20,7 @@ Agridex offers farmers a choice of relevant information and services along with 
 
 Agriculture data exchange is a Data Empowerment And Protection Architecture (DEPA) compliant data fiduciary block that enables farmer consent driven access to data for third-party data requesters.
 
-![Agriculture Data Exchange](./images/ade1.png)
+![Agriculture Data Exchange](../images/ade1.png)
 
 ### Guiding design principles
 
@@ -35,7 +35,7 @@ Agriculture data exchange is a Data Empowerment And Protection Architecture (DEP
 - Data consumers in the ecosystem can request for data owners consent to consume data that exists in (state agricultural database) for providing services
 - Stores and updates farmer consent for usage of data attributes by requesting party
 
-![Agriculture Data Exchange](./images/ade2.png)
+![Agriculture Data Exchange](../images/ade2.png)
 
 ---
 ### Block functions
@@ -56,4 +56,4 @@ Agriculture data exchange is a Data Empowerment And Protection Architecture (DEP
 
 ### Sample Consent Artifact 
 
-![Sample Artifact](./images/artifect.png)
+![Sample Artifact](../images/artifect.png)
