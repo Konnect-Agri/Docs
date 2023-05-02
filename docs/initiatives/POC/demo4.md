@@ -16,7 +16,7 @@ To test the entire consent cycle including
 
 ### Demo setup
 
-![Demo4](./images/image1.png)
+![Demo4](../../images/image1.png)
 
 1. Screens involved
     1. Farmer screen - To enable farmer to chose consent for all data field for credit use case
@@ -45,7 +45,7 @@ To test the entire consent cycle including
     3. Button to allow consent for selected fields
     4. Button to revoke consent (for all fields)
 
-![Demo4](./images/image4.png)
+![Demo4](../../images/image4.png)
 
 2. CA - Render CA on screen 2 to view 
     1. Test 1 - Is the CA correct (how can we check this? @CG)
@@ -58,4 +58,4 @@ To test the entire consent cycle including
     2. Request button to request for these 4 entries
 4. Bank Manager - The application form gets filled or not based on the consent artifact
 
-![Demo4](./images/image8.png)
+![Demo4](../../images/image8.png)

@@ -7,7 +7,7 @@ sidebar_label: Demo 5
 
 ### Elements of the Demo
 
-![Demo5](./images/image17.png)
+![Demo5](../../images/image17.png)
 
 1. UIs
     1. Farmer credit portal
@@ -23,7 +23,7 @@ sidebar_label: Demo 5
 
 4. UFSI BeckN app flow (below is a sample flow for select spec)
 
-    ![demo5](./images/image3.png)
+    ![demo5](../../images/image3.png)
 
     1. Client - Farmer side application (farmer credit portal) - Here farmer selects any product
     2. Proxy - Establish to help route requests from client to the beck-in-a-box block block
@@ -57,7 +57,7 @@ sidebar_label: Demo 5
 
     (Search ⇒ A simple search request that returns a catalog as per Beckn core spec for the /on-search route)
 
-    ![Demo5](./images/imageN.png)
+    ![Demo5](../../images/imageN.png)
  
 3. Farmer - Selects one of the products shown on the table as per search criterion 
 
@@ -79,12 +79,12 @@ sidebar_label: Demo 5
 
     The aadhar of user also gets mapped here to the order ID (to be used in track))
 
-    ![demo5](./images/image3.png)
+    ![demo5](../../images/image3.png)
 6. Farmer - Logsin into the credit portal and moves to clicks on the track tab to launch the dashboard all the credit application
 
     (track ⇒ track spec enables farmer to revert to any application re-submissions that are required by the loan officer)
 
-    ![demo5](./images/image5.png)
+    ![demo5](../../images/image5.png)
 
 7. Bank - Upon receiving application form post init flow, loan officer sends revert and changes that need to be made in the application in the 
 
@@ -92,5 +92,5 @@ sidebar_label: Demo 5
 
 8. Farmer - Based on the revert comments, the farmer fills the application form again and submits
 
-    ![demo5](./images/image2.png)
+    ![demo5](../../images/image2.png)
 9. Farmer - Incase the farmer wants to cancel the application/ loan product he clicks on the cancel button on the track dashboard and the loan officer is notified of the cancellation

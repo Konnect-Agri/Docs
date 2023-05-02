@@ -18,7 +18,7 @@ sidebar_label: Demo 2
     3. Bank
 
     (Search ⇒ A simple search request that returns a catalog as per Beckn core spec for the /on-search route)
-    ![imageN](./images/imageN.png)
+    ![imageN](../../images/imageN.png)
 3. Farmer - Selects one of the products shown on the table as per search criterion 
 
     (select ⇒ this action/route basically maps to creation of an order, hence an order will be created with the selected loan item)
@@ -38,6 +38,6 @@ sidebar_label: Demo 2
 
     (confirm ⇒ in our use case this will be mapped to the bank manager (of loan officer) confirming our request has been successfully submitted for verification)
 
-![image](./images/image3.png)
+![image](../../images/image3.png)
 
 
