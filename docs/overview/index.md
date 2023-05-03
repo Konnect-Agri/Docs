@@ -18,6 +18,20 @@ Samagra’s approach to improving the income of farmers is to push for four core
 - Reducing information asymmetry for the farmers
 - Setting up a technology stack to enable phygital access to farmer-centric services
 
+### Structure
 
 ![Konnect Overview](../images/konnect-overview.png)
+
+* Krushak Odisha Portal & App
+* Farmer Centric Initiatives
+    * Inputs
+    * Credit
+    * Extension
+    * Markets
+* Enablers
+* Promotion
+* Policy reforms
+* Ecosystem mobilisation
+* Krushak Samiksha Kendra
+* [Konnect Stack](../initiatives/konnect_stack/index.md)
 
