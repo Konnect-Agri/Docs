@@ -18,3 +18,5 @@ To solve some of the above problems, the Government of Odisha has conceptualized
 
 
 ### [Technical Implementation](./tech/index.md)
+
+Aashutosh to add
