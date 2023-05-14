@@ -21,7 +21,10 @@ Marginal and small farmers have a clear information asymmetry which acts as a ma
 
 ### Vision
 
-Konnect creates an open ecosystem platform that makes the markets work for farmers and lets the agri-value chain operate at a higher equilibrium by reducing information asymmetry and increasing choices for farmers. The stack,
+The Konnect stack can unlock new digitally-delivered services to facilitate and integrate multiple disparate journeys through both public and private participation. By bringing together the required data and 
+technology infrastructure (which may be privately or publicly owned / managed) through interoperable design and common standards, the stack will be able to augment value for each stakeholder in the agriculture chain. 
+
+Konnect stack creates an open ecosystem platform that makes the markets work for farmers and lets the agri-value chain operate at a higher equilibrium by reducing information asymmetry and increasing choices for farmers. The stack,
 1. Creates a platform which can be leveraged to link farmers, policy makers, buyers, and farm service providers by creating simple service provider and farmer-facing UIs and leverage Konnect API specifications (powered by BeckN protocol)
 2. Enables services for farmers across
     1. Farm inputs
