@@ -3,6 +3,9 @@ sidebar_position: 1
 sidebar_label: Konnect Stack
 ---
 # Konnect Stack
+
+The aim of the Agriculture Stack is to establish an open ecosystem platform that facilitates fair market conditions for farmers, thereby enabling the agricultural value chain to function at an optimal level. This is achieved by reducing information asymmetry through sharing of data in a consented way and providing farmers with more choices through an open digital ecosystem. Agri stack comprises two main blocks, the Unified Farmers Service Interface (UFSI) and the Agriculture Data Exchange (AgriDex). 
+
 ---
 ## Use Cases 
 
