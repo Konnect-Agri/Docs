@@ -4,6 +4,11 @@ sidebar_label: UFSI Network
 ---
 
 # Unified Farmers’ Service Interface (Decentralized network)
+
+UFSI is envisaged to play a role comparable to UPI (Unified Payment Interface) in the space of digital payments. While UPI has transformed payment systems by optimizing the underlying processes and providing a set of APIs for identification, authentication, and authorization, UFSI is required to handle multiple types of transactions in the digital agriculture space through a set of open specifications and standard APIs. This set of open specifications is known as Beckn protocol. 
+
+[Beckn]([url](https://becknprotocol.io/)) is an open protocol that allows local businesses across any industry to be discovered and engaged by any beckn-enabled application. Beckn protocol helps businesses co-create solutions for the masses seamlessly, by combining services of any form or provider. Beckn defines contracts or protocols for communication between entities sharing information. 
+
 ---
 ## Use Cases
 
