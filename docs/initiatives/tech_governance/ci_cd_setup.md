@@ -1,10 +1,10 @@
 ---
-sidebar_position: 5
+sidebar_position: 2
 sidebar_label: CI/CD Setup in Our Project
 ---
 # How we are setting up the things
 --- 
-![CI CD FLOW](../../static/img/ci_cd_flow.png)
+![CI CD FLOW](../../../static/img/ci_cd_flow.png)
  
  * Visual Demo of different services that are up through portainer.io
  * Multibranch pipelines instead of freestyle project

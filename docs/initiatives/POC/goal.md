@@ -23,7 +23,7 @@ The vision of the POC is to enable all functions for a credit use case including
 
 
 **UFSI flow for one sample spec (Search)**
-![UFSI flow for one sample spec](./images/image3.png)
+![UFSI flow for one sample spec](../../images/image3.png)
 
 1. **Client**- Farmer side application (farmer credit portal) - Here farmer selects any product
 2. **Proxy** - Establish to help route requests from client to the beck-in-a-box block 

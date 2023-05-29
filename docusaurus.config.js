@@ -36,9 +36,10 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Konnect-Agri/Docs/tree/master/',
+          editUrl: 'https://github.com/Konnect-Agri/Docs/tree/master/',
+          routeBasePath: '/', // Set this value to '/'.
         },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -56,63 +57,18 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          {
+          /*{
             type: 'doc',
-            docId: 'intro',
+            docId: 'overview',
             position: 'left',
             label: 'Documentation',
-          },
+          },*/
           {
             href: 'https://github.com/Konnect-Agri/Docs',
             label: 'GitHub',
             position: 'right',
           },
         ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Projects',
-            items: [
-              {
-                label: 'Konnect',
-                href: "https://www.samagragovernance.in/project/konnect/"
-              },
-              {
-                label: 'Konnect-Agri Docs',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Socials',
-            items: [
-              {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/company/samagra-transforming-governance/',
-              },
-              {
-                label: 'Instagram',
-                href: 'https://www.instagram.com/samagragovernance/?hl=en',
-              },
-              {
-                label: 'Youtube',
-                href: 'https://www.youtube.com/channel/UCfkXErS-f87xUQkmSKSC8bg',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/Konnect-Agri',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()}  Samagra Development Associates Pvt. Ltd`,
       },
       prism: {
         theme: lightCodeTheme,

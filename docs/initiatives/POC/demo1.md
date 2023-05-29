@@ -11,7 +11,7 @@ To test the query resolver block, the block receives data query (request) from t
 
 ### Demo Setup
 
-![Demo1](./images/image14.png)
+![Demo1](../../images/image14.png)
 
 1. **Count of query** - Checks the number of  times data is requested, the consent artifact defines a limit to number of times a data consumer can request farmer data based on the farmer’s accorded permissions (currently hard-coded to 2 times)
 2. **Bank request** - This collection of fields that a data consumer wants access to for a particular farmer
@@ -22,13 +22,13 @@ To test the query resolver block, the block receives data query (request) from t
 
 - **Bank request:** Select fields you want to select to request as a data consumer and click submit button bellow bank request section
 
-![Demo1](./images/image11.png)
+![Demo1](../../images/image11.png)
 
 - **Farmer consent:** Select fields that you want to mimic as accorded permission given by a farmer and click on submit button below farmer consent
 
-![Demo1](./images/image15.png)
+![Demo1](../../images/image15.png)
 
 - **Result:** After clicking on Run Query button, the result gets reflected in the result console
 
-![Demo1](./images/image9.png)
+![Demo1](../../images/image9.png)
 
