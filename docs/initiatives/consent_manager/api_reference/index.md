@@ -3,7 +3,217 @@ sidebar_position: 3
 sidebar_label: API Reference
 ---
 # Consent Manager - API Reference
-This section highlights the key apis accessible along with their capabilites, request body and appropriate response.
+This section highlights the key apis accessible along with their capabilites, request body and appropriate response. You can also have a look at the attached flow diagram which is in reference to the SAFAL Portal integration.
+
+![safalxconsentmanager (1) drawio](https://github.com/Konnect-Agri/consent-manager/assets/46066481/8635f5c4-f092-4f73-8d98-420a70f11f8d)
+
+## Consent Artifact Structure
+<table>
+<tr>
+<th>Consent Artifact JSON</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+
+```json
+{
+    "consentArtifact": {
+        "signature": "",
+        "created": "YYYY-MM-DDThh:mm:ssZn.n",
+        "expires": "2024-12-12T00:00:00.000Z",
+        "id": "",
+        "revocable": false,
+        "collector": {
+            "id": "did:collector:123",
+            "url": "http://64.227.181.5:6000"
+        },
+        "consumer": {
+            "id": "did:consumer:123",
+            "url": "https://sample-consumer/api/v1/consume"
+        },
+        "provider": {
+            "id": "did:proider:123",
+            "url": "https://sample-consumer/api/v1"
+        },
+        "user": {
+            "id": "safal@gmail.com"
+        },
+        "revoker": {
+            "url": "https://sample-revoker/api/v1/revoke",
+            "id": "did:user:123"
+        },
+        "purpose": "",
+        "user_sign": "",
+        "collector_sign": "",
+        "frequency": {
+            "ttl": 100,
+            "limit": 200
+        },
+        "total_queries_allowed": 500,
+        "log": {
+            "consent_use": {
+                "url": "https://sample-log/api/v1/log"
+            },
+            "data_access": {
+                "url": "https://sample-log/api/v1/log"
+            }
+        },
+        "data": ["intDay","intGender","intMaritalStatus","intMonth","intPrimaryMobileNumber"]
+    }
+}
+```
+</td>
+<td>
+<ul>
+<li>
+
+`consentArtifact: `
+<ul>
+<li>
+
+`created: ` Timestamp of creation of the artifact
+</li>
+<li>
+
+`expires: ` Timestamp of expiration of the artifact
+</li>
+<li>
+
+`id: ` Id of the created consentArtifact
+</li>
+<li>
+
+`revocable: ` Defines if the artifact can be revoked or not, accepts a boolean value `true/false`,
+</li>
+<li>
+
+`collector: ` Collector is Consent Manager itself
+<ul>
+<li>
+
+`id: ` Id of the collector service
+</li>
+<li>
+
+`url: ` URL of the collector service
+</li>
+</ul>
+</li>
+<li>
+
+`consumer: ` Consumer is the one who uses the data (Safal Portal in this case)
+<ul>
+<li>
+
+`id: ` Id of the consumer service
+</li>
+<li>
+
+`url: ` URL of the consumer service
+</li>
+</ul>
+</li>
+<li>
+
+`provider: `Provider is where data is stored (Krushak Odisha in this case)
+<ul>
+<li>
+
+`id: ` Id of the provider service
+</li>
+<li>
+
+`url: ` URL of the provider service
+</li>
+</ul>
+</li>
+<li>
+
+`revoker: ` Revoker is the one who has the authority to revoke the consent artifact. In this case Consent Manager
+<ul>
+<li>
+
+`id: ` Id of the revoker service
+</li>
+<li>
+
+`url: ` URL of the revoker service
+</li>
+</ul>
+</li>
+<li>
+
+`user: `
+<ul>
+<li>
+
+`id: ` Unique identifier of the user
+</li>
+</ul>
+</li>
+<li>
+
+`purpose: ` Defines the purpose of the Consent Artifact
+</li>
+<li>
+
+`user_sign: ` Cryptographic signature obtained by signing the Consent Artifact by the user
+</li>
+<li>
+
+`collector_sign: ` Cryptographic signature obtained by signing the Consent Artifact by the collector
+</li>
+<li>
+
+`frequency:` Defines the frequency of requests authorized 
+<ul>
+<li>
+
+`ttl: ` Time To Live (in seconds)
+</li>
+<li>
+
+`limit: ` Number of consecutive requests allowed
+</li>
+</ul>
+</li>
+<li>
+
+`log: `
+<ul>
+<li>
+
+`consent_use: ` 
+<ul>
+<li>
+
+`url: ` Logger service URL for consent use
+</li>
+</ul>
+</li>
+<li>
+
+`data_access: `
+<ul>
+<li>
+
+`url: ` Logger service URL for data access
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+
+`data: ` List of attributes the user has given their consent for access ex ["name","age","mobile"]
+</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+</table>
 
 ## Authentication
 All requests to the Consent Manager APIs must include an authentication token in the request headers. To authenticate, add an `Authorization` header with the value `Bearer YOUR_TOKEN` in your HTTP requests.

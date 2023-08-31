@@ -5,7 +5,15 @@ sidebar_label: Consent Manager
 
 # Consent Manager
 
-Consent Manager is a part of Konnet Stack which handles the entire consent lifecycle. It is responsible for blocking data request transactions and provides authorization based on data owner's consent. 
+Consent Manager is a part of Konnet Stack which handles the entire consent lifecycle. It is responsible for blocking data request transactions and provides authorization based on data owner's consent. This is direcly influenced from the <b>[Legal Framework for Mandatory Electronic Delivery of Services](https://www.meity.gov.in/sites/upload_files/dit/files/Consolidatep_PPT_02122010.pdf)</b> of Ministry of Communications and Information Technology, India. 
+
+Talking in a broader sense of the vision of the inspiration, it's aiming for :
+- Ensure more e-services are made available
+- Ensure greater access to e-services
+- e-Services being enabled through MMPs
+- Access being ensured through e-infrastructure
+- Need - Accelerate the e-enablement of services
+- Phasing out of manual delivery of services
 
 # Block Functions
 - Authentication - Verifies the authenticity of a data consumer
@@ -30,6 +38,8 @@ It is just as the name sounds like, it acts like a guard which looks over what d
 
 ### Resolver
 The final layer which handles the actual logic of data retrieval and delivery. If all checks pass that is the user is properly authenticated,authorized and is requesting mindful data in compliance with the permitted information then the Resolver layer extracts the required information and sends it back.
+
+To know more about it checkout the github repo <b>[here](https://github.com/Konnect-Agri/consent-manager)</b>
 
 
 ## Integration with SAFAL
